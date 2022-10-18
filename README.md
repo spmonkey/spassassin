@@ -6,6 +6,7 @@
     + 1、-o,--outout 保存输出
     + 2、-p,--port 指定端口扫描 默认全端口扫描
     + 修改端口扫描参数 --port --> --portscan
++ 为domainscan修改参数 --url --> --domain
 
 > 使用方法
 
