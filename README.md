@@ -17,10 +17,8 @@ python spassin.py -h
 
 > cdn查询
 
-* python spassin.py --cdn -u www.baidu.com
+* python spassin.py --cdnscan --domain www.baidu.com
 ![CDN](./picture/cdn1.png)
-* python spassin.py --cdn --url www.baidu.com
-![CDN](./picture/cdn2.png)
 
 > 端口扫描
 
@@ -39,8 +37,6 @@ python spassin.py -h
 
 > 子域名查询
 
-* python spassin.py --domain -u hscsec.cn -t 50 --proxy 127.0.0.1:10809 
+* python spassin.py --domainscan --domain hscsec.cn -t 50
 ![DOMAIN](./picture/domain1.png)
-* python spassin.py --domain --url hscsec.cn --thread 50 --proxy 127.0.0.1:10809
-![DOMAIN](./picture/domain2.png)
 
